@@ -12,7 +12,7 @@ export default function DreamForm({
   const [dream, setDream] = useState("");
 
   async function handleSubmit(
-    event: React.FormEvent<HTMLFormElement>
+    event: React.SubmitEvent<HTMLFormElement>
   ) {
     event.preventDefault();
 
